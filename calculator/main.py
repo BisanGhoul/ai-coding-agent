@@ -3,8 +3,6 @@
 import sys
 from pkg.calculator import Calculator
 from pkg.render import format_json_output
-from test_files_info import main as test_get_files_info_main
-
 
 def main():
     calculator = Calculator()
