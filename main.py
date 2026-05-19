@@ -25,7 +25,7 @@ def main():
 
     for _ in range(20):
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-2.5-pro',
             contents=messages,
             config=types.GenerateContentConfig(
                 tools=[available_functions],
